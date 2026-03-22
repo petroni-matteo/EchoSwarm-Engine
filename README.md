@@ -26,27 +26,22 @@ Unlike standard synchronous wrappers, EchoSwarm utilizes a **decoupled microserv
 ## 🚦 Quick Start
 
 ### 1. Install Dependencies
-```bash
-pip install fastapi uvicorn httpx pydantic streamlit pandas
+`pip install fastapi uvicorn httpx pydantic streamlit pandas`
+
+### 2. Launch the Engine (Backend)
+`uvicorn main:app --reload`
+
+### 3. Launch the Dashboard (Frontend)
+`streamlit run app.py`
 
 ---
 
-### 2. Launch the Engine (Backend)
-```bash
-uvicorn main:app --reload
+## Research Goals
 
-### 3. Launch the Dashboard (Frontend)
-```bash
-streamlit run app.py
+1. **Information Warfare:** Studying echo chamber formation.
+2. **Social Triggers:** Testing the impact of news on demographic clusters.
+3. **Scalability:** Analyzing concurrency limits of LLM-based agents.
 
-
-📊 Research Goals
-This project provides a sandbox for:
-
-Information Warfare: Studying echo chamber formation and narrative spreading.
-
-Social Triggers: Testing the impact of global news on diverse demographic clusters.
-
-Scalability: Analyzing the concurrency limits of LLM-based agents in distributed environments.
-
+---
+*Developed for research purposes in Swarm Intelligence and Behavioral Modeling.*
 Developed for research purposes in Swarm Intelligence and Behavioral Modeling.
